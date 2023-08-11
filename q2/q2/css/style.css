@@ -1,2 +1,21 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+main {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  outline: 10px solid #655;
+  width: 200px;
+  padding: 10px;
+  background-color: #d2b48c;
+  border-radius: 13px;
+  box-shadow: 0 0 0 6px #655;
+}
